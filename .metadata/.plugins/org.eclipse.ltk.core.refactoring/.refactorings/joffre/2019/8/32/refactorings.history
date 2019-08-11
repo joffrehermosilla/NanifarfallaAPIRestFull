@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;joffre.NanifarfallaRest.model.Cliente_tienepedido&apos; to &apos;Estado_clientetienepedido&apos;&#x0D;&#x0A;- Original project: &apos;joffre&apos;&#x0D;&#x0A;- Original element: &apos;joffre.NanifarfallaRest.model.Cliente_tienepedido&apos;&#x0D;&#x0A;- Renamed element: &apos;joffre.NanifarfallaRest.model.Estado_clientetienepedido&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Cliente_tienepedido&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;joffre.NanifarfallaRest.model{Cliente_tienepedido.java[Cliente_tienepedido" matchStrategy="1" name="Estado_clientetienepedido" qualified="false" references="true" similarDeclarations="false" stamp="1564890657666" textual="false" version="1.0"/>
+</session>

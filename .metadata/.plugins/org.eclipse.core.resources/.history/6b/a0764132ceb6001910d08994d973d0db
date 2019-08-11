@@ -1,0 +1,15 @@
+package joffre.NanifarfallaRest.model;
+
+import javax.persistence.Entity;
+import javax.persistence.EntityListeners;
+import javax.persistence.Table;
+
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
+
+@Entity
+@Table(name = "cliente_tiene_pedido")
+@EntityListeners(AuditingEntityListener.class)
+public class Cliente_tiene_pedido {
+
+}
+
