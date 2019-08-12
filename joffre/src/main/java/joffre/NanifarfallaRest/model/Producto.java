@@ -44,5 +44,6 @@ public class Producto {
 	private Collection<ProductoxPedido> productoxpedido = new ArrayList<>();
 	
 	
-	
+	@OneToMany(mappedBy = "producto")
+	private Collection<RecetaProductotieneInsumo> recetasproductosinsumos = new ArrayList<>();
 }
