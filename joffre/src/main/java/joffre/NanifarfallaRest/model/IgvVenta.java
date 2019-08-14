@@ -1,11 +1,15 @@
 package joffre.NanifarfallaRest.model;
 
+import java.util.ArrayList;
+import java.util.Collection;
+
 import javax.persistence.EntityListeners;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
@@ -23,4 +27,8 @@ public class IgvVenta {
 	@ManyToOne
 	@JsonBackReference
 	TipoImpuesto tipo_impuesto;
+	
+	
+	@OneToMany(mappedBy = "igv_venta")
+	private Collection<Cliente_tiene_pedido> clientetienepedido = new ArrayList<>();
 }

@@ -74,7 +74,13 @@ public class Distrito {
 	public void setUsuario(Collection<Usuario> usuario) {
 		this.usuario = usuario;
 	}
-
+	@OneToMany(mappedBy = "distrito")
+	@JsonBackReference
+	private Collection<Zona_tieneDistrito> zonatienedistrito = new ArrayList<>();
+	
+	
+	
+	
 	@NotBlank
 	String nombre_distrito;
 	@NotBlank
