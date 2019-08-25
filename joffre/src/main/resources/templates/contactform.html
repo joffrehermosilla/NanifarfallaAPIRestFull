@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>Nanifarfalla©- Add/modify Contact</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet"
+		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link href="#" th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body>
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Contact Form</h1>
+			<br/>
+			<form action="#" th:action="@{/contacts/addcontact}" th:object="${contactModel}" method="post">
+				Nombre Usuario: <input type="text" class="form-control" th:field="*{nombre_usuario}" th:value="${nombre_usuario}"></input>
+				<br/>
+				Apellido Usuario: <input type="text" class="form-control" th:field="*{apellido_usuario}" th:value="${apellido_usuario}"></input>
+				<br/>
+				Fecha de Nacimiento: <input type="text" class="form-control" th:field="*{fecha_nacimiento}" th:value="${fecha_nacimiento}"></input>
+				<br/>
+				Dirección de Usuario: <input type="text" class="form-control" th:field="*{direccion_usuario}" th:value="${direccion_usuario}"></input>
+				<br/>
+				Nombre de Logeo de Usuario: <input type="text" class="form-control" th:field="*{nombre_logeo_usuario}" th:value="${nombre_logeo_usuario}"></input>
+				<br/>
+				Password de Usuario: <input type="text" class="form-control" th:field="*{password_usuario}" th:value="${password_usuario}"></input>
+				<br/>
+				Ruta de Foto de Usuario: <input type="text" class="form-control" th:field="*{ruta_foto_usuario}" th:value="${ruta_foto_usuario}"></input>
+				<br/>
+				Clave Api: <input type="text" class="form-control" th:field="*{claveApi}" th:value="${claveApi}"></input>
+				<br/>
+			<!--  	Tipo de Usuario: <input type="text" class="form-control" th:field="*{tipousuario}"></input>
+				<br/>
+				Estado de Usuario: <input type="text" class="form-control" th:field="*{estadousuario}"></input>
+				<br/>
+				Distrito: <input type="text" class="form-control" th:field="*{distrito}"></input>
+				<br/>
+				-->
+				<button class="btn btn-lg btn-primary btn-block" type="submit">
+					<span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Accept
+				</button>
+				
+			</form>
+			<a href="#" th:href="@{/contacts/cancel}">
+			<button class="btn btn-lg btn-primary btn-block" type="submit">
+					<span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Accept
+				</button>
+				</a>
+		</div>
+	</div>
+
+</body>
+</html>

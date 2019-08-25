@@ -9,6 +9,182 @@
 	<atom:link rel="self" href="http://planeteclipse.org/rss20.xml" type="application/rss+xml"/>
 
 <item>
+	<title>vert.x project: Eclipse Vert.x 3.8.1</title>
+	<guid isPermaLink="true">https://vertx.io/blog/eclipse-vert-x-3-8-1</guid>
+	<link>https://vertx.io/blog/eclipse-vert-x-3-8-1</link>
+	<description>&lt;article&gt;&lt;p&gt;We have just released Vert.x 3.8.1, a bug fix release of Vert.x 3.8.x.&lt;/p&gt;
+&lt;p&gt;This version updates to Netty 4.1.39.Final fixing the following HTTP/2 related CVE&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CVE-2019-9512: Ping Flood&lt;/li&gt;
+&lt;li&gt;CVE-2019-9514: Reset Flood&lt;/li&gt;
+&lt;li&gt;CVE-2019-9515: Settings Flood&lt;/li&gt;
+&lt;li&gt;CVE-2019-9518: Empty DATA frame flooding&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Since the release of Vert.x 3.8.0, quite a few bugs have been reported. We would like to thank you all for reporting these issues.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Vert.x 3.8.1 deprecations and breaking changes&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/vert-x3/wiki/wiki/3.8.1-Deprecations-and-breaking-changes&quot;&gt;https://github.com/vert-x3/wiki/wiki/3.8.1-Deprecations-and-breaking-changes&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vert.x 3.8.1 release notes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/vert-x3/wiki/wiki/3.8.1-Release-Notes&quot;&gt;https://github.com/vert-x3/wiki/wiki/3.8.1-Release-Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The artifacts have been deployed to &lt;a href=&quot;http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22io.vertx%22%20AND%20v%3A%223.8.1%22&quot;&gt;Maven Central&lt;/a&gt; and you can get the distribution on &lt;a href=&quot;https://bintray.com/vertx/downloads/distribution/3.8.1/view&quot;&gt;Bintray&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can bootstrap a Vert.x 3.8.1 project using &lt;a href=&quot;https://start.vertx.io&quot;&gt;https://start.vertx.io&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The event bus client using the SockJS bridge are available from NPM, Bower and as a WebJar:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.npmjs.com/package/vertx3-eventbus-client&quot;&gt;https://www.npmjs.com/package/vertx3-eventbus-client&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/vert-x3/vertx-bus-bower&quot;&gt;https://github.com/vert-x3/vertx-bus-bower&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.webjars.org/&quot;&gt;http://www.webjars.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Docker images are also available on the &lt;a href=&quot;https://hub.docker.com/u/vertx/&quot;&gt;Docker Hub&lt;/a&gt;. The Vert.x distribution is also available from &lt;a href=&quot;http://sdkman.io/index.html&quot;&gt;SDKMan&lt;/a&gt; and &lt;a href=&quot;http://brew.sh/&quot;&gt;HomeBrew&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Happy coding and see you soon on our user or dev &lt;a href=&quot;https://vertx.io/community&quot;&gt;channels&lt;/a&gt;.&lt;/p&gt;
+&lt;/article&gt;</description>
+	<pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Mat Booth: Eclipse is Now a Module on Fedora 30</title>
+	<guid isPermaLink="false">tag:blog.matbooth.co.uk,2019-08-21:/09-eclipse-module-f30.html/</guid>
+	<link>http://blog.matbooth.co.uk/09-eclipse-module-f30.html</link>
+	<description>&lt;p&gt;How to install the Eclipse IDE module on Fedora 30!&lt;/p&gt;</description>
+	<pubDate>Wed, 21 Aug 2019 13:30:00 +0000</pubDate>
+</item>
+<item>
+	<title>Maximilian and Jonas: Modeling Symposium @ EclipseCon Europe 2019</title>
+	<guid isPermaLink="false">https://eclipsesource.com/?p=41891</guid>
+	<link>https://eclipsesource.com/blogs/2019/08/20/modeling-symposium-eclipsecon-europe-2019/</link>
+	<description>&lt;p&gt;We are happy to announce that Ed, Philip and Jonas are organizing the Modeling Symposium for the EclipseCon Europe 2019 in...&lt;/p&gt;&lt;p&gt;The post &lt;a href=&quot;https://eclipsesource.com/blogs/2019/08/20/modeling-symposium-eclipsecon-europe-2019/&quot; rel=&quot;nofollow&quot;&gt;Modeling Symposium @ EclipseCon Europe 2019&lt;/a&gt; appeared first on &lt;a href=&quot;https://eclipsesource.com&quot; rel=&quot;nofollow&quot;&gt;EclipseSource&lt;/a&gt;.&lt;/p&gt;</description>
+	<pubDate>Tue, 20 Aug 2019 08:58:43 +0000</pubDate>
+</item>
+<item>
+	<title>Jonas Hungershausen: GSoC 2019 Summary: Dart support for the Eclipse IDE</title>
+	<guid isPermaLink="true">https://jonas-jonas.dev/posts/dartboard-summary/</guid>
+	<link>https://jonas-jonas.dev/posts/dartboard-summary/</link>
+	<description>&lt;p&gt;Summary of my Summer of Code 2019&lt;/p&gt;
+&lt;p&gt;This post is a summary of my Summer of Code 2019.
+My project was to bring Dart development support to the Eclipse IDE.
+To do so I created a plugin that consumes the Dart analysis server using &lt;a href=&quot;https://projects.eclipse.org/projects/technology.lsp4e&quot;&gt;LSP4E&lt;/a&gt;.
+It also provides syntax highlighting using &lt;a href=&quot;https://projects.eclipse.org/projects/technology.tm4e&quot;&gt;TM4E&lt;/a&gt; and many more features listed below.&lt;/p&gt;
+&lt;h1&gt;Features&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;The following list showcases the most significant features of the plugin I (and other contributors) added during GSoC 2019.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Running Dart programs directly from Eclipse&lt;/strong&gt; - &lt;a href=&quot;https://github.com/eclipse/dartboard/issues/1&quot;&gt;eclipse/dartboard#1&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Standard &amp;amp; error output in a dedicated console&lt;/li&gt;
+&lt;li&gt;Support for multiple Launch configurations&lt;/li&gt;
+&lt;li&gt;Running single files from the context menu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Dart preference page&lt;/strong&gt; - &lt;a href=&quot;https://github.com/eclipse/dartboard/issues/10&quot;&gt;eclipse/dartboard#10&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Set the location for the Dart SDK that should be used for all actions&lt;/li&gt;
+&lt;li&gt;Choose whether to automatically synchronize the dependencies of project&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;First class Pub support&lt;/strong&gt; - &lt;a href=&quot;https://github.com/eclipse/dartboard/pull/107&quot;&gt;eclipse/dartboard#107&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Automatic synchronization of Pub dependencies when changing the &lt;code&gt;pubspec.yaml&lt;/code&gt; file&lt;/li&gt;
+&lt;li&gt;Shortcut for running &lt;code&gt;$ pub get&lt;/code&gt; manually&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Creating new Dart projects and files&lt;/strong&gt; - &lt;a href=&quot;https://github.com/eclipse/dartboard/pull/115&quot;&gt;eclipse/dartboard#115&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stagehand templates are also supported&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Usage of the Dart logo&lt;/strong&gt; - &lt;a href=&quot;https://github.com/eclipse/dartboard/commit/a23fc1f57cd3fdc6e702759c507aa977f7dd7561&quot;&gt;eclipse/dartboard@a23fc1f&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Import existing Dart projects directly into the workspace&lt;/strong&gt; (+ automatic dependency synchronization) - &lt;a href=&quot;https://github.com/eclipse/dartboard/pull/116&quot;&gt;eclipse/dartboard#116&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Upstream Bug Fixes&lt;/h1&gt;
+&lt;p&gt;During development I encountered many issues with the libraries and tools I was using.
+As I was already aware I took the time to fix them directly and provide a patch or PR for the corresponding library.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A &lt;code&gt;NullPointerException&lt;/code&gt; in LSP4E's &lt;code&gt;SymbolsModel#getChildren&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Issue: &lt;a href=&quot;https://github.com/eclipse/dartboard/issues/4&quot;&gt;eclipse/dartboard#4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fix: &lt;a href=&quot;https://git.eclipse.org/r/#/c/139273/&quot;&gt;Change 139273&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Adjusted the Eclipse Light syntax theme in TM4E to match the classic Eclipse theme better&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Issue: &lt;a href=&quot;https://github.com/eclipse/dartboard/issues/21&quot;&gt;eclipse/dartboard#21&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fix: &lt;a href=&quot;https://github.com/eclipse/tm4e/pull/215&quot;&gt;eclipse/tm4e#215&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Using the quick access menu in Eclipse resulted in an Exception.
+This was caused by LSP4E not adhering to the LSP spec.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Issue: &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=548155&quot;&gt;Bug 548155&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fix: &lt;a href=&quot;https://git.eclipse.org/r/#/c/143723/&quot;&gt;Change 143723&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;code&gt;textDocument/didSave&lt;/code&gt; notification is not supported by the Dart analysis server but LSP4E sent it anyway and this resulted in an error&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Issue: &lt;a href=&quot;https://github.com/eclipse/dartboard/issues/32&quot;&gt;eclipse/dartboard#32&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fix: &lt;a href=&quot;https://git.eclipse.org/r/#/c/143922/&quot;&gt;Change 143922&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Another NPE in TM4E's &lt;code&gt;ThemeContribution&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Issue: &lt;a href=&quot;https://github.com/eclipse/tm4e/issues/207&quot;&gt;eclipse/tm4e#207&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fix: &lt;a href=&quot;https://github.com/eclipse/tm4e/pull/217&quot;&gt;eclipse/tm4e#217&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Things Left to do&lt;/h1&gt;
+&lt;p&gt;I have completed all of my goals I set in the initial proposal for GSoC.
+However a few things and features have come up during development that I will take care of in the near future.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pub console&lt;/strong&gt; - Currently there is now way to see the output of the pub commands
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/eclipse/dartboard/issues/117&quot;&gt;eclipse/dartboard#117&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Flutter support&lt;/strong&gt; - Flutter apps need to be run using the special &lt;code&gt;$ flutter&lt;/code&gt; command suite, instead of the default SDK
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/eclipse/dartboard/issues/109&quot;&gt;eclipse/dartboard#109&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Webdev support&lt;/strong&gt; - Dart apps that should be run on the browser need to be run using the &lt;code&gt;$ webdev&lt;/code&gt; command line tools
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/eclipse/dartboard/issues/110&quot;&gt;eclipse/dartboard#110&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There also are a few subtleties in the user experience that need to be taken care of.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;A full list of commits and issues can be found on the &lt;a href=&quot;https://github.com/eclipse/dartboard&quot;&gt;project's GitHub repository&lt;/a&gt;.
+Installation instructions can also be found there.&lt;/p&gt;
+&lt;h1&gt;Appreciation&lt;/h1&gt;
+&lt;p&gt;In the early days, Lakshminarayana Nekkanti has joined the project as a committer.
+He has been extremely helpful since by fixing bugs in the Eclipse platform that have been open for years (&lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=513034&quot;&gt;Bug 513034&lt;/a&gt;) and contributing a lot of features and knowledge to the plugin.
+Thank you, Lakshminarayana!&lt;/p&gt;
+&lt;p&gt;I would also like to thank Lars Vogel who has been my Mentor and helped tremendously when I was unsure what to do.&lt;/p&gt;</description>
+	<pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>EclipseCon Europe 2019: Sponsor Testimonial: Bosch Software Innovations</title>
+	<guid isPermaLink="false">2168 at https://www.eclipsecon.org</guid>
+	<link>https://www.eclipsecon.org/europe2019/news/sponsor-testimonial-bosch-software-innovations</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;em&gt;...We find EclipseCon Europe to be the ideal gathering ground for the open source community and the perfect place to share and gain insights into new open source developments and trends. This year, we are contributing six sessions to the conference. We &lt;a href=&quot;https://www.eclipsecon.org/europe2019/sessions/if-bosch-can-do-it-you-can-do-it-too&quot;&gt;share insights into our approach to open source&lt;/a&gt; and take a closer look at &lt;a href=&quot;https://www.eclipsecon.org/europe2019/sessions/eclipse-hawkbit-101&quot;&gt;Eclipse hawkBit&lt;/a&gt;, &lt;a href=&quot;https://www.eclipsecon.org/europe2019/sessions/using-eclipse-kuksa-connected-vehicle-services&quot;&gt;Eclipse Kuksa&lt;/a&gt;, &lt;a href=&quot;https://www.eclipsecon.org/europe2019/sessions/osgi-creates-real-technical-added-value-iot-%E2%80%93-let%E2%80%99s-talk-about-concrete-use&quot;&gt;OSGi&lt;/a&gt; as well as ways of &lt;a href=&quot;https://www.eclipsecon.org/europe2019/sessions/ensuring-open-source-compliance-using-eclipse-foundation-technology&quot;&gt;improving efficiency of open source compliance processes&lt;/a&gt;. Feel free to also join us at the IoT playground....&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2019/news/sponsor-testimonial-bosch-software-innovations&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/BoschSpeakers.png?itok=Ky5jga8U&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Thu, 15 Aug 2019 14:48:50 +0000</pubDate>
+</item>
+<item>
 	<title>Maximilian and Jonas: Scaffolding a JSON Forms application with Yeoman</title>
 	<guid isPermaLink="false">https://eclipsesource.com/?p=41880</guid>
 	<link>https://eclipsesource.com/blogs/2019/08/14/scaffolding-a-json-forms-application-with-yeoman/</link>
@@ -307,15 +483,6 @@ I have started work on it now and will work on that for the last two weeks.&lt;/
 	<pubDate>Thu, 01 Aug 2019 21:08:16 +0000</pubDate>
 </item>
 <item>
-	<title>EclipseCon Europe 2019: Early Selection: A tale of Rust, the ESP32 and IoT</title>
-	<guid isPermaLink="false">2146 at https://www.eclipsecon.org</guid>
-	<link>https://www.eclipsecon.org/europe2019/news/early-selection-tale-rust-esp32-and-iot</link>
-	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;em&gt;Jens Reimann takes us on a tour of the Rust programming language in his talk, A tale of Rust, the ESP32 and IoT.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Rust is an amazing new programing language. It finds many more programming issues during compile time than most other languages. It is performant, natively compiled. It is also developed in a true, open source, community fashion. With that, it creates an amazing ecosystem around it.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2019/news/early-selection-tale-rust-esp32-and-iot&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/JensReimann600x600.png?itok=lOFgNQ7Y&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-	<pubDate>Wed, 31 Jul 2019 15:38:08 +0000</pubDate>
-</item>
-<item>
 	<title>Chris Aniszczyk: KubeCon Shanghai 2019: Cloud Native at China Scale</title>
 	<guid isPermaLink="false">https://www.aniszczyk.org/?p=4295</guid>
 	<link>https://www.aniszczyk.org/2019/07/29/kubecon-shanghai-2019-cloud-native-at-china-scale/</link>
@@ -440,170 +607,6 @@ expect more milestones to outline the progress of the effort.&lt;/p&gt;
 	<link>http://blog.matbooth.co.uk/08-openjdk-in-flathub.html</link>
 	<description>&lt;p&gt;What's the deal with Java in Flathub?&lt;/p&gt;</description>
 	<pubDate>Mon, 22 Jul 2019 15:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>vert.x project: Eclipse Vert.x 3.8.0 released!</title>
-	<guid isPermaLink="true">https://vertx.io/blog/eclipse-vert-x-3-8-0-released</guid>
-	<link>https://vertx.io/blog/eclipse-vert-x-3-8-0-released</link>
-	<description>&lt;article&gt;&lt;p&gt;We are extremely pleased to announce that the Eclipse Vert.x version 3.8.0 has been released.&lt;/p&gt;
-&lt;p&gt;This is an important release that introduces a few changes ramping up to Vert.x 4 expected by the end of this year.&lt;/p&gt;
-&lt;h4 id=&quot;-a-id-the-reactive-sql-client-a-&quot;&gt;&lt;a id=&quot;&quot;&gt;The Reactive SQL Client&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;The client is the evolution of the legendary &lt;em&gt;Reactive PostgreSQL Client&lt;/em&gt; and provides&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The Reactive PostgreSQL Client aka Vert.x PostgreSQL Client&lt;/li&gt;
-&lt;li&gt;The Reactive MySQL Client aka Vert.x MySQL Client&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These implementations provide real high performance non-blocking access to PostgreSQL and MySQL.&lt;/p&gt;
-&lt;p&gt;To use these new modules, add the following to the &lt;em&gt;dependencies&lt;/em&gt; section of your Maven POM file:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs xml&quot;&gt;&lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;dependency&lt;/span&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;groupId&lt;/span&gt;&amp;gt;&lt;/span&gt;io.vertx&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;groupId&lt;/span&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;artifactId&lt;/span&gt;&amp;gt;&lt;/span&gt;vertx-pg-client&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;artifactId&lt;/span&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;version&lt;/span&gt;&amp;gt;&lt;/span&gt;3.8.0&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;version&lt;/span&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;dependency&lt;/span&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;dependency&lt;/span&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;groupId&lt;/span&gt;&amp;gt;&lt;/span&gt;io.vertx&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;groupId&lt;/span&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;artifactId&lt;/span&gt;&amp;gt;&lt;/span&gt;vertx-mysql-client&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;artifactId&lt;/span&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;hljs-tag&quot;&gt;&amp;lt;&lt;span class=&quot;hljs-title&quot;&gt;version&lt;/span&gt;&amp;gt;&lt;/span&gt;3.8.0&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;version&lt;/span&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;hljs-tag&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;dependency&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Or, if you use Gradle:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;compile&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;'io.vertx:vertx-pg-client:3.8.0'&lt;/span&gt;
-&lt;span class=&quot;hljs-keyword&quot;&gt;compile&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;'io.vertx:vertx-mysql-client:3.8.0'&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then you are good to go!&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;&lt;span class=&quot;hljs-comment&quot;&gt;// Connect options&lt;/span&gt;
-PgConnectOptions connectOptions = &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; PgConnectOptions()
-  .setPort(&lt;span class=&quot;hljs-number&quot;&gt;5432&lt;/span&gt;)
-  .setHost(&lt;span class=&quot;hljs-string&quot;&gt;&quot;the-host&quot;&lt;/span&gt;)
-  .setDatabase(&lt;span class=&quot;hljs-string&quot;&gt;&quot;the-db&quot;&lt;/span&gt;)
-  .setUser(&lt;span class=&quot;hljs-string&quot;&gt;&quot;user&quot;&lt;/span&gt;)
-  .setPassword(&lt;span class=&quot;hljs-string&quot;&gt;&quot;secret&quot;&lt;/span&gt;);
-
-PgPool client = PgPool.pool(connectOptions, &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; PoolOptions().setMaxSize(&lt;span class=&quot;hljs-number&quot;&gt;5&lt;/span&gt;));
-
-client.query(&lt;span class=&quot;hljs-string&quot;&gt;&quot;SELECT * FROM users WHERE id='julien'&quot;&lt;/span&gt;, ar -&amp;gt; {
-  &lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; (ar.succeeded()) {
-    RowSet result = ar.result();
-    System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;Got &quot;&lt;/span&gt; + result.size() + &lt;span class=&quot;hljs-string&quot;&gt;&quot; rows &quot;&lt;/span&gt;);
-  } &lt;span class=&quot;hljs-keyword&quot;&gt;else&lt;/span&gt; {
-    System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;Failure: &quot;&lt;/span&gt; + ar.cause().getMessage());
-  }
-});&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Likewise you can achieve the same for MySQL:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;MySQLConnectOptions connectOptions = &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; MySQLConnectOptions()
-  .setPort(&lt;span class=&quot;hljs-number&quot;&gt;3306&lt;/span&gt;)
-  .setHost(&lt;span class=&quot;hljs-string&quot;&gt;&quot;the-host&quot;&lt;/span&gt;)
-  .setDatabase(&lt;span class=&quot;hljs-string&quot;&gt;&quot;the-db&quot;&lt;/span&gt;)
-  .setUser(&lt;span class=&quot;hljs-string&quot;&gt;&quot;user&quot;&lt;/span&gt;)
-  .setPassword(&lt;span class=&quot;hljs-string&quot;&gt;&quot;secret&quot;&lt;/span&gt;);
-
-MySQLPool client = MySQLPool.pool(connectOptions, &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; PoolOptions().setMaxSize(&lt;span class=&quot;hljs-number&quot;&gt;5&lt;/span&gt;));
-
-client.query(&lt;span class=&quot;hljs-string&quot;&gt;&quot;SELECT * FROM users WHERE id='julien'&quot;&lt;/span&gt;, ar -&amp;gt; {
-  &lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; (ar.succeeded()) {
-    RowSet result = ar.result();
-    System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;Got &quot;&lt;/span&gt; + result.size() + &lt;span class=&quot;hljs-string&quot;&gt;&quot; rows &quot;&lt;/span&gt;);
-  } &lt;span class=&quot;hljs-keyword&quot;&gt;else&lt;/span&gt; {
-    System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;Failure: &quot;&lt;/span&gt; + ar.cause().getMessage());
-  }
-});&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The &lt;em&gt;Reactive SQL Client&lt;/em&gt; brings to you the next generation database access, it is certainly the most exciting
-thing happening in the reactive database access space.&lt;/p&gt;
-&lt;h4 id=&quot;future-api-improvements&quot;&gt;Future API improvements&lt;/h4&gt;
-&lt;p&gt;In this release we updated the Vert.x &lt;code&gt;Future&lt;/code&gt; interface to expose completion methods in a new &lt;code&gt;Promise&lt;/code&gt; interface.&lt;/p&gt;
-&lt;p&gt;This improves the design of the API of &lt;code&gt;Future&lt;/code&gt; by having &lt;code&gt;Promise&lt;/code&gt; being the write side of an asynchronous result
-and the &lt;code&gt;Future&lt;/code&gt; being its read side.&lt;/p&gt;
-&lt;p&gt;While there is little use for this in Vert.x 3.x, this has an impact on Vert.x 4.&lt;/p&gt;
-&lt;p&gt;Consequently some method signatures have been changed to use &lt;code&gt;Promise&lt;/code&gt; instead of &lt;code&gt;Future&lt;/code&gt; explained in this &lt;a href=&quot;https://github.com/vert-x3/wiki/wiki/3.8.0-Deprecations-and-breaking-changes#future-creation-and-completion&quot;&gt;page&lt;/a&gt;.&lt;/p&gt;
-&lt;h4 id=&quot;upgrading-to-3-8&quot;&gt;Upgrading to 3.8&lt;/h4&gt;
-&lt;p&gt;Upgrading to 3.8.0 might require a few changes in your application, you can read this &lt;a href=&quot;https://github.com/vert-x3/wiki/wiki/3.8.0-Deprecations-and-breaking-changes#future-creation-and-completion&quot;&gt;page&lt;/a&gt; to understand the impact of the
-3.8 release on your application upgrade.&lt;/p&gt;
-&lt;h4 id=&quot;and-more-&quot;&gt;And more…&lt;/h4&gt;
-&lt;p&gt;Here are some other important improvements you can find in this release:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Cassandra Client gets out of tech preview&lt;/li&gt;
-&lt;li&gt;Jackson upgrade to 2.9.9 and databind 2.9.9.1&lt;/li&gt;
-&lt;li&gt;And obviously we have the usual bug fixes!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&quot;finally&quot;&gt;Finally&lt;/h4&gt;
-&lt;p&gt;The &lt;a href=&quot;https://github.com/vert-x3/wiki/wiki/3.8.0-Release-Notes&quot;&gt;3.8.0 release notes&lt;/a&gt; can be found on the wiki, as well as the
-list of &lt;a href=&quot;https://github.com/vert-x3/wiki/wiki/3.8.0-Deprecations-and-breaking-changes&quot;&gt;deprecations and breaking changes&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Docker images are available on &lt;a href=&quot;https://hub.docker.com/u/vertx/&quot;&gt;Docker Hub&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The Vert.x distribution can be downloaded on the website but is also available from &lt;a href=&quot;http://sdkman.io/index.html&quot;&gt;SDKMan&lt;/a&gt; and &lt;a href=&quot;http://brew.sh/&quot;&gt;HomeBrew&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The event bus client using the SockJS bridge is available from:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.npmjs.com/package/vertx3-eventbus-client&quot;&gt;NPM&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/vert-x3/vertx-bus-bower&quot;&gt;Bower&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.webjars.org/&quot;&gt;WebJars&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The release artifacts have been deployed to &lt;a href=&quot;http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22io.vertx%22%20AND%20v%3A%223.8.0%22&quot;&gt;Maven Central&lt;/a&gt; and you can get the distribution on &lt;a href=&quot;https://bintray.com/vertx/downloads/distribution/3.8.0/view&quot;&gt;Bintray&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;That’s it! Happy coding and see you soon on our user or dev &lt;a href=&quot;https://vertx.io/community&quot;&gt;channels&lt;/a&gt;.&lt;/p&gt;
-&lt;/article&gt;</description>
-	<pubDate>Fri, 19 Jul 2019 00:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>Jonas Hungershausen: Dartboard: Icons, bug fixes &amp; a new committer</title>
-	<guid isPermaLink="true">https://jonas-jonas.dev/posts/dartboard-third-update/</guid>
-	<link>https://jonas-jonas.dev/posts/dartboard-third-update/</link>
-	<description>&lt;p&gt;Dart icon, bug fixes and a new committer. Dartboard is getting better and better every week. So what's new?&lt;/p&gt;
-&lt;h1&gt;Eclipse Marketplace&lt;/h1&gt;
-&lt;p&gt;Installing the plug-in typically involved adding an update site, downloading its content and then installing the plug-in.
-This process is quite tedious.
-That's why I added the plug-in to the &lt;a href=&quot;https://marketplace.eclipse.org/content/dartboard&quot;&gt;Eclipse Marketplace&lt;/a&gt;, which is much nicer to use.&lt;/p&gt;
-&lt;p&gt;To install the plug-in from the marketplace make sure you have the &lt;a href=&quot;https://www.eclipse.org/mpc/&quot;&gt;Marketplace client&lt;/a&gt; installed.
-Open the &lt;a href=&quot;https://marketplace.eclipse.org/content/dartboard&quot;&gt;marketplace entry&lt;/a&gt; and drag and drop the install button into your running Eclipse instance.
-Alternatively, you can open the Marketplace client from the &lt;strong&gt;Help&amp;gt;Eclipse Marketplace...&lt;/strong&gt; menu and search for &lt;strong&gt;Dartboard&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;In the future you will also receive notifications about updates and an option to update the plug-in.&lt;/p&gt;
-&lt;h1&gt;Dart Icon&lt;/h1&gt;
-&lt;p&gt;Since using the icon of the Dart language requires to first ask permission from Google, it took some time to use the logo in the project.
-Now however we are allowed to use the icon and I have added it to the code base.
-It is now shown in many places like launch configurations or file creation wizards.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Dart logo on New Project Shortcut&quot; src=&quot;https://jonas-jonas.dev/posts/assets/new-project-shortcut.png&quot; /&gt;&lt;/p&gt;
-&lt;h1&gt;Property Testers Instead of Project Natures&lt;/h1&gt;
-&lt;p&gt;In my last post I wrote about the usage of project natures in the plug-in.
-After reevaluating this, we came to the conclusion that it is better to use property testers instead.
-The reason for this is, that project natures are written into the project configuration file.
-One drawback to this is that a project nature is extremely Eclipse specific.
-This means that just importing a project might not enable all features.&lt;/p&gt;
-&lt;p&gt;To curb with this problem, I removed the project natures again and added a &lt;code&gt;PropertyTester&lt;/code&gt; that checks for the existence of a &lt;code&gt;pubspec.yaml&lt;/code&gt; file or any file with the &lt;code&gt;.dart&lt;/code&gt; file extension.&lt;/p&gt;
-&lt;h1&gt;Dart Console&lt;/h1&gt;
-&lt;p&gt;The first implementation of the Dart console, that was used to display output from Dart programs, was very basic.
-It did not allow to cancel the currently running program and did not remove itself when it wasn't needed anymore.&lt;/p&gt;
-&lt;p&gt;It turns out that the Eclipse IDE APIs actually allow to use a &lt;code&gt;ProcessConsole&lt;/code&gt; for these tasks.
-Using the Console just requires to add a process.
-It will take care of life cycling and lets the user cancel longer running tasks.&lt;/p&gt;
-&lt;h1&gt;Preference Page&lt;/h1&gt;
-&lt;p&gt;The Dart preference was also heavily improved.
-Firstly, on first starts of the IDE with the plug-in installed it automatically tries to detect the location of the Dart SDK that is on the path of the host system.
-If it can't find an SDK, a warning will be shown.&lt;/p&gt;
-&lt;p&gt;Secondly, the validations on the preference page now validate if the entered location is actually a valid Dart SDK location.
-If not the &quot;Apply&quot; button will not be enabled.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;Preference Page Validation&quot; src=&quot;https://jonas-jonas.dev/posts/assets/preference-validation-after.gif&quot; /&gt;&lt;/p&gt;
-&lt;h1&gt;Custom Methods in LSP4J&lt;/h1&gt;
-&lt;p&gt;The Dart analysis server uses some custom methods when communicating with the client.
-To handle these however a custom handler for each method is needed.
-If no handler is available LSP4J will throw an error.&lt;/p&gt;
-&lt;p&gt;The custom method from the Dart analysis server was &lt;code&gt;$/analyzerStatus&lt;/code&gt;.
-The &lt;code&gt;$&lt;/code&gt; at the beginning indicates that it's a custom method.
-The &lt;code&gt;analyzerStatus&lt;/code&gt; method is used to notify the client of the current analyzer status (e.g. if the server is currently analyzing or not).
-This information could be used to indicate the status in the UI in the future.
-For now it was sufficient to just have a handler that essentially suppressed the error message.&lt;/p&gt;
-&lt;p&gt;See &lt;a href=&quot;https://github.com/eclipse/dartboard/issues/35&quot;&gt;dartboard#35&lt;/a&gt; for more details.&lt;/p&gt;
-&lt;h1&gt;New Committer&lt;/h1&gt;
-&lt;p&gt;I would also like to mention that the project now has its first committer: Lakshminarayana Nekkanti.
-After he raised a few pull request in the past weeks, we decided that it would be very nice to have him as a committer.&lt;/p&gt;
-&lt;p&gt;Thanks Lakshminarayana for your excellent work and code reviews.&lt;/p&gt;
-&lt;h1&gt;Licenses and Signing&lt;/h1&gt;
-&lt;p&gt;Artifacts from our build server are now signed by the Eclipse Foundation.
-Essentially this means you can be sure that the artifact you are downloading is in fact our plug-in.
-Upon installation the licenses (EPL2) are now also shown.&lt;/p&gt;
-&lt;h1&gt;Conclusion&lt;/h1&gt;
-&lt;p&gt;As this post marks half of my time with Google Summer of Code, there is only one and a half month to go.
-There are still some things left to do and I'm looking forward to increasing the plug-ins user count and its features in the next weeks.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Dart and the related logo are trademarks of Google LLC. We are not endorsed by or affiliated with Google LLC.&lt;/em&gt;&lt;/p&gt;</description>
-	<pubDate>Fri, 19 Jul 2019 00:00:00 +0000</pubDate>
 </item>
 <item>
 	<title>N4JS: React App Development in N4JS (Chess Game Part 1)</title>
@@ -781,13 +784,6 @@ There are still some things left to do and I'm looking forward to increasing the
 &lt;p&gt;Download the Business of Open Source eBook today to learn how to innovate with confidence by giving your mission-critical projects a proper home at the Eclipse Foundation. Thank you to Deborah Bryant, Todd Moore, and Tyler Jewell for contributing their insights and expertise to the eBook. Let us know what you think and be sure to join the entrepreneurial open source conversation on Twitter @EclipseFdn and share your open source success story using #entropeneur.&lt;/p&gt;
 &lt;p&gt;To learn more about the business value of open collaboration at the Eclipse Foundation, visit entropeneur.org to explore our other commercial open source resources, including video success stories featuring Eclipse community members. We’ve also developed an &lt;a href=&quot;https://www.eclipse.org/org/value/public/pdf/business_of_open_source_infographic.pdf&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;infographic&lt;/a&gt; summarizing the benefits and advantages of participating in an open source foundation, and &lt;a href=&quot;https://www.eclipse.org/org/value/public/pdf/business_of_open_source_slide_deck.pdf&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;slide deck&lt;/a&gt; that you can use to make the case for joining the Eclipse Foundation.&lt;/p&gt;</description>
 	<pubDate>Mon, 15 Jul 2019 14:40:45 +0000</pubDate>
-</item>
-<item>
-	<title>Maximilian and Jonas: EMF Forms 1.21.0 Feature: Multi Edit for Tables and Trees</title>
-	<guid isPermaLink="false">https://eclipsesource.com/?p=41854</guid>
-	<link>https://eclipsesource.com/blogs/2019/07/15/emf-forms-1-21-0-feature-multi-edit-for-tables-and-trees/</link>
-	<description>&lt;p&gt;EMF Forms makes it easy to create forms that are able to edit your data based on an EMF model. To...&lt;/p&gt;&lt;p&gt;The post &lt;a href=&quot;https://eclipsesource.com/blogs/2019/07/15/emf-forms-1-21-0-feature-multi-edit-for-tables-and-trees/&quot; rel=&quot;nofollow&quot;&gt;EMF Forms 1.21.0 Feature: Multi Edit for Tables and Trees&lt;/a&gt; appeared first on &lt;a href=&quot;https://eclipsesource.com&quot; rel=&quot;nofollow&quot;&gt;EclipseSource&lt;/a&gt;.&lt;/p&gt;</description>
-	<pubDate>Mon, 15 Jul 2019 10:29:17 +0000</pubDate>
 </item>
 <item>
 	<title>PapyrusUML: Papyrus SysML 1.6  available from the Eclipse Marketplace.</title>
@@ -1268,6 +1264,21 @@ mvn spring-boot:run -Drun.arguments=--hono.client.host=$MESSAGING_HOST,--hono.cl
 	<link>https://www.infoq.com/news/2019/06/eclipse-codewind?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Eclipse</link>
 	<description>&lt;img src=&quot;https://www.infoq.com/styles/i/logo_bigger.jpg&quot; /&gt;&lt;p&gt;Eclipse Codewind is a new developer-centric project from the Eclipse Foundation that aims to assist developers by providing ways to quickly and consistently accomplish tasks that are common to cloud-native application development.&lt;/p&gt; &lt;i&gt;By Dustin Schultz&lt;/i&gt;</description>
 	<pubDate>Mon, 17 Jun 2019 05:35:00 +0000</pubDate>
+</item>
+<item>
+	<title>Sharon Corbett: Eclipse Individual Committer Agreement 4.0 Update</title>
+	<guid isPermaLink="false">6708 at https://blogs.eclipse.org</guid>
+	<link>https://blogs.eclipse.org/post/sharon-corbett/eclipse-individual-committer-agreement-40-update</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p dir=&quot;ltr&quot;&gt;The Eclipse Foundation has been busy over the last six months communicating with the Community at Large in order to update our standard Contributor and Committer Agreements to state explicitly that contributions made to our projects may also be used in specifications.&lt;/p&gt;
+
+&lt;p&gt;Our second milestone in this campaign targeted the &lt;a href=&quot;https://www.eclipse.org/legal/committer_process/EclipseIndividualCommitterAgreement.pdf&quot;&gt;Eclipse Individual Committer Agreement&lt;/a&gt; (ICA) and we are happy to report that a very significant number of our individual committers successfully updated theirs.  On June 13th, we retired all versions of the ICA prior to version 4.0 which has placed a small number of individual committers in a temporary locked position.  Please note this does not impact your status as a Committer; it temporarily locks your commit privileges until the updated agreement is in place. This will ensure the integrity of all of our projects.&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;We are confident we have connected with all committers in this situation; however, we are here to help!  Email emo-records@eclipse-foundation.org for assistance.&lt;/p&gt;
+
+&lt;p&gt;Thank you to the Eclipse Community for your support of this campaign and for helping make Eclipse a great community!&lt;br /&gt;
+ &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Fri, 14 Jun 2019 15:27:28 +0000</pubDate>
 </item>
 <item>
 	<title>Lorenzo Bettini: My new book on TDD, Build Automation and Continuous Integration</title>
@@ -1871,12 +1882,8 @@ The Eclipse Ditto team&lt;/p&gt;</description>
 
 &lt;p&gt;For example, all contributors must be covered by the &lt;a href=&quot;https://www.eclipse.org/legal/ECA.php&quot;&gt;Eclipse Foundation Contributor Agreement&lt;/a&gt; (ECA) and they must include a “Signed-off-by” footer in commit messages. When contributing to an Eclipse Foundation Specification Project, contributors must be covered with version 3.0.0 or greater of the ECA.&lt;/p&gt;
 
-
 &lt;figure class=&quot;thumbnail&quot;&gt;
-    
-        &lt;img src=&quot;https://www.chrisguindon.com/post/github-eclipse-eca-validation-service/validation-feedback.jpg&quot; /&gt;
-    
-    
+    &lt;img src=&quot;https://www.chrisguindon.com/post/github-eclipse-eca-validation-service/validation-feedback.jpg&quot; /&gt; 
 &lt;/figure&gt;
 
 
@@ -1890,12 +1897,8 @@ The Eclipse Ditto team&lt;/p&gt;</description>
 
 &lt;p&gt;Finally, we made some improvements to our “details” page. We added a “revalidate” button to allow Eclipse users to trigger a revalidation without pushing new changes to the pull-request and we added some useful links to allow users to return to GitHub or to sign the &lt;a href=&quot;https://accounts.eclipse.org/user/eca&quot;&gt;ECA&lt;/a&gt;.&lt;/p&gt;
 
-
 &lt;figure class=&quot;thumbnail&quot;&gt;
-    
-        &lt;img src=&quot;https://www.chrisguindon.com/post/github-eclipse-eca-validation-service/details-page.jpg&quot; /&gt;
-    
-    
+    &lt;img src=&quot;https://www.chrisguindon.com/post/github-eclipse-eca-validation-service/details-page.jpg&quot; /&gt; 
 &lt;/figure&gt;
 
 
@@ -1925,67 +1928,6 @@ The Eclipse Ditto team&lt;/p&gt;</description>
 	<link>https://www.xqdt.org/voice/</link>
 	<description>100％無添加でグレインフリー。原材料（63％）の白身魚から得る豊富な動物性たんぱく質で猫の健康と食いつきを追求したキャットフード、『モグニャン 』。 色んなサイトで軒並み高評価されていますが、実際の ... &lt;p&gt;Copyright © 2019 &lt;a href=&quot;https://www.xqdt.org&quot;&gt;モグニャンの口コミ解説&lt;/a&gt; All Rights Reserved.&lt;/p&gt;</description>
 	<pubDate>Fri, 28 Dec 2018 10:50:07 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Scout: Looking back on the first two simultaneous releases and forward to a full roadmap for 2019</title>
-	<guid isPermaLink="false">news-2609</guid>
-	<link>https://www.bsi-software.com/en/scout-blog/article/looking-back-on-the-first-two-simultaneous-releases-and-forward-to-a-full-roadmap-for-2019.html</link>
-	<description>&lt;p class=&quot;lead&quot;&gt;Since our last major release of Scout 8 with Eclipse Photon, we have polished a few things about Scout. We were able to successfully release two releases since the switch to the Eclipse Simultaneous Release Train. What has changed in these releases? What are Maven archetypes for Scout and where will Scout go in 2019? Keywords are &quot;Dark Theme&quot;, &quot;OpenJDK&quot; and &quot;ECMAScript6&quot;.&lt;/p&gt;
-											
-											
-													
-													&lt;div style=&quot;margin: 0px 15px;&quot;&gt;
-													&lt;div class=&quot;csc-default-wrapper default &quot;&gt;
-				&lt;div class=&quot;row&quot;&gt;
-					&lt;div class=&quot;large-12 columns&quot;&gt;
-						&lt;div class=&quot;csc-default content-type-text clearfix&quot; id=&quot;c19790&quot;&gt;&lt;div class=&quot;csc-text csc-text-c19790&quot;&gt;&lt;h2&gt;Simultaneous Releases September and December&lt;/h2&gt;
-&lt;p&gt;With the September release, the first simultaneous release of the Eclipse platform, and the latest release in December, we mainly worked on the presentation and performance of Scout. With support for virtual scrolling, tile grids are now only calculated by the browser when the elements come into the visible area. This results in a significant performance gain in certain browsers, e.g. the Internent Explorer.
-&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;external-link-new-window button&quot; href=&quot;https://eclipsescout.github.io/8.0/release-notes.html&quot; target=&quot;_blank&quot; title=&quot;Release notes eclipse scout&quot;&gt;Updated release notes&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
-						&lt;span class=&quot;clearfix&quot;&gt;&lt;/span&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;&lt;div class=&quot;csc-default-wrapper default &quot;&gt;
-				&lt;div class=&quot;row&quot;&gt;
-					&lt;div class=&quot;large-12 columns&quot;&gt;
-						&lt;div class=&quot;csc-default content-type-textpic clearfix&quot; id=&quot;c19791&quot;&gt;&lt;div class=&quot;csc-header csc-header-n2&quot;&gt;&lt;h2&gt;Maven Archetypes for Scout&lt;/h2&gt;&lt;/div&gt;&lt;div class=&quot;csc-textpic csc-textpic-left csc-textpic-below&quot;&gt;&lt;div class=&quot;csc-textpic-text&quot;&gt;&lt;div class=&quot;csc-text csc-text-c19791&quot;&gt;&lt;p&gt;There are two Maven archetypes available for some time now. These provide a complete application architecture, from persistence to the user interface, as a Maven project. We used Jooq for the persistence, other persistence frameworks can be integrated analogously. These application blueprints show how a complete application breakthrough with Scout works. Further, we have added some additional functionality such as favorites or user administration in the archetype for the classic Scout framework.&lt;br /&gt;You can find the ScoutJS archetype on Maven-Central: &lt;a class=&quot;external-link-new-window&quot; href=&quot;http://search.maven.org/classic/#search%7Cga%7C1%7Ca%3A%22scout-hellojs-app%22&quot; target=&quot;_blank&quot; title=&quot;scout-hellojs-app&quot;&gt;scout-hellojs-app&lt;/a&gt;&lt;br /&gt;The archetype for Scout classic is available on github: &lt;a class=&quot;external-link-new-window&quot; href=&quot;https://github.com/BSI-Business-Systems-Integration-AG/ScoutJooq&quot; target=&quot;_blank&quot; title=&quot;ScoutJooq&quot;&gt;ScoutJooq&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;csc-textpic-imagewrap&quot;&gt;&lt;figure class=&quot;csc-textpic-image csc-textpic-last&quot;&gt;&lt;img alt=&quot;&quot; height=&quot;694&quot; src=&quot;https://www.bsi-software.com/fileadmin/daten/Scout_Blog/2018/scout_bild_1.png&quot; width=&quot;1142&quot; /&gt;&lt;figcaption class=&quot;csc-textpic-caption&quot;&gt;The Maven Archetype for Scout makes it quick and easy to build complete business applications. &lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
-						&lt;span class=&quot;clearfix&quot;&gt;&lt;/span&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;&lt;div class=&quot;csc-default-wrapper default &quot;&gt;
-				&lt;div class=&quot;row&quot;&gt;
-					&lt;div class=&quot;large-12 columns&quot;&gt;
-						&lt;div class=&quot;csc-default content-type-textpic clearfix&quot; id=&quot;c19792&quot;&gt;&lt;div class=&quot;csc-header csc-header-n3&quot;&gt;&lt;h2&gt;Outlook for 2019&lt;/h2&gt;&lt;/div&gt;&lt;div class=&quot;csc-textpic csc-textpic-left csc-textpic-below&quot;&gt;&lt;div class=&quot;csc-textpic-text&quot;&gt;&lt;div class=&quot;csc-text csc-text-c19792&quot;&gt;&lt;p&gt;We have set ourselves many goals for 2019. Scout 9 and 10 are the next major development steps. Various usability improvements will be implemented, some new widgets will be added for both the classic Scout and ScoutJS. A highlight is the dark theme, which can also be activated via a configuration attribute.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;csc-textpic-imagewrap&quot;&gt;&lt;figure class=&quot;csc-textpic-image csc-textpic-last&quot;&gt;&lt;img alt=&quot;&quot; height=&quot;555&quot; src=&quot;https://www.bsi-software.com/fileadmin/daten/_processed_/4/e/csm_scout_bild_2_a36c46901b.png&quot; width=&quot;1160&quot; /&gt;&lt;figcaption class=&quot;csc-textpic-caption&quot;&gt;The new dark theme in Scout 9&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
-						&lt;span class=&quot;clearfix&quot;&gt;&lt;/span&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;&lt;div class=&quot;csc-default-wrapper default &quot;&gt;
-				&lt;div class=&quot;row&quot;&gt;
-					&lt;div class=&quot;large-12 columns&quot;&gt;
-						&lt;div class=&quot;csc-default content-type-text clearfix&quot; id=&quot;c19793&quot;&gt;&lt;div class=&quot;csc-text csc-text-c19793&quot;&gt;&lt;p&gt;Technically Scout 9 will be compatible with Java 11 and will now also support OpenJDK. Not only is the Scout Javascript Client Code put on a new technological basis with ECMAScript 6 in the course of 2019. We are also examining new tooling support, a possible conversion to TypeScript and much more.
-&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;Get to know Scout?&lt;/h3&gt;
-&lt;p&gt;Visit our &lt;a class=&quot;external-link-new-window&quot; href=&quot;http://www.eclipse.org/scout&quot; target=&quot;_blank&quot; title=&quot;Scout&quot;&gt;project page&lt;/a&gt;, make your first steps with Scout using the comprehensive &lt;a class=&quot;external-link-new-window&quot; href=&quot;http://eclipsescout.github.io/8.0/&quot; target=&quot;_blank&quot; title=&quot;Scout documentation&quot;&gt;documentation&lt;/a&gt;, and check out the &lt;a class=&quot;external-link-new-window&quot; href=&quot;https://www.eclipse.org/forums/index.php?t=thread&amp;amp;frm_id=174&quot; target=&quot;_blank&quot; title=&quot;Scout forum&quot;&gt;Scout forum&lt;/a&gt; if you have questions around a particular topic!
-&lt;/p&gt;
-&lt;h3&gt;Scout Survey&lt;/h3&gt;
-&lt;p&gt;Do you have two minutes to make Scout even better? 
-&lt;/p&gt;
-&lt;p&gt;&lt;a class=&quot;external-link-new-window button&quot; href=&quot;https://de.surveymonkey.com/r/ScoutSurvey&quot; target=&quot;_blank&quot; title=&quot;Scout survey&quot;&gt;Complete survey (2minutes)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
-						&lt;span class=&quot;clearfix&quot;&gt;&lt;/span&gt;
-					&lt;/div&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-													&lt;/div&gt;</description>
-	<pubDate>Fri, 21 Dec 2018 13:38:00 +0000</pubDate>
-</item>
-<item>
-	<title>Tom Schindl: Slides from JavaFX-Days Zürich on e(fx)clipse APIs</title>
-	<guid isPermaLink="false">http://tomsondev.bestsolution.at/?p=5183</guid>
-	<link>https://tomsondev.bestsolution.at/2018/12/05/slides-from-javafx-days-zurich-on-efxclipse-apis/</link>
-	<description>&lt;p&gt;If you could not attend &lt;a href=&quot;https://www.javafx-days.com/&quot;&gt;my talk at the JavaFX-Days ZÃ¼rich&lt;/a&gt; yesterday or you did and wanted to recap what you’ve presented. Here are the &lt;a href=&quot;https://tomsondev.bestsolution.at/2018/12/05/slides-from-javafx-days-zurich-on-efxclipse-apis/javafx-days/&quot; rel=&quot;attachment wp-att-5184&quot;&gt;slides&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I enjoyed the conference and I hope you did as well. See you next year!&lt;/p&gt;</description>
-	<pubDate>Wed, 05 Dec 2018 08:57:45 +0000</pubDate>
 </item>
 
 </channel>

@@ -16,11 +16,23 @@ public class Pais {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int codigo_pais;
 	
+	@NotBlank
+	private String nombre_pais;
+
+	@NotBlank
+	private String claveApi;
+	
+	
+	
 	
 	@OneToMany(mappedBy = "pais")
 	private Collection<Provincia> provincias = new ArrayList<>();
+	
+	
 	@OneToMany(mappedBy = "pais")
 	private Collection<DiasEspeciales> diasespeciales = new ArrayList<>();
+	
+	
 
 	public Collection<DiasEspeciales> getDiasespeciales() {
 		return diasespeciales;
@@ -38,11 +50,7 @@ public class Pais {
 		this.provincias = provincias;
 	}
 
-	@NotBlank
-	private String nombre_pais;
 
-	@NotBlank
-	private String claveApi;
 
 //	@Column(nullable = false, updatable = false)
 //	@Temporal(TemporalType.TIMESTAMP)

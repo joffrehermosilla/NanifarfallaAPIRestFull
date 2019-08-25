@@ -10,8 +10,11 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+import javax.validation.constraints.NotBlank;
 
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
+
+
 
 @Entity
 @Table(name = "estado_producto")
@@ -21,6 +24,46 @@ public class EstadoProducto {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int codigo_estadoproducto;
 	
-	@OneToMany(mappedBy = "estado_producto")
+	@OneToMany(mappedBy = "mEstadoproducto")
 	private Collection<Producto> productos = new ArrayList<>();
+	
+	
+	@NotBlank
+	private String nombre_estado_producto;
+
+	public int getCodigo_estadoproducto() {
+		return codigo_estadoproducto;
+	}
+
+	public void setCodigo_estadoproducto(int codigo_estadoproducto) {
+		this.codigo_estadoproducto = codigo_estadoproducto;
+	}
+
+	public Collection<Producto> getProductos() {
+		return productos;
+	}
+
+	public void setProductos(Collection<Producto> productos) {
+		this.productos = productos;
+	}
+
+	public String getNombre_estado_producto() {
+		return nombre_estado_producto;
+	}
+
+	public void setNombre_estado_producto(String nombre_estado_producto) {
+		this.nombre_estado_producto = nombre_estado_producto;
+	}
+
+	public String getClaveApi() {
+		return claveApi;
+	}
+
+	public void setClaveApi(String claveApi) {
+		this.claveApi = claveApi;
+	}
+
+	@NotBlank
+	private String claveApi;
+
 }

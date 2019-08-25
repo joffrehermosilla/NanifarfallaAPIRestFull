@@ -14,7 +14,7 @@ public class PruebaSwagger {
 	 public Docket api() { 
        return new Docket(DocumentationType.SWAGGER_2)  
          .select()                                  
-         .apis(RequestHandlerSelectors.basePackage("com.excursion.ExcursionREST.controller"))              
+         .apis(RequestHandlerSelectors.basePackage("joffre.NanifarfallaRest.controller"))              
          .paths(PathSelectors.any())                          
          .build();                                           
    }

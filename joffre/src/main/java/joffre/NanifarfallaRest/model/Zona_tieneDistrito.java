@@ -8,6 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+import javax.validation.constraints.NotBlank;
 
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
@@ -28,6 +29,44 @@ public class Zona_tieneDistrito {
 	Distrito distrito;
 	
 	
+	@JoinColumn(name = "fkcodigo_zona", referencedColumnName = "codigo_zona")
+	@ManyToOne
+	@JsonBackReference
+	Zona zona;
 	
+	@NotBlank
+	 String claveApi;
+
+	public int getCodigo_zona_tiene_distrito() {
+		return codigo_zona_tiene_distrito;
+	}
+
+	public void setCodigo_zona_tiene_distrito(int codigo_zona_tiene_distrito) {
+		this.codigo_zona_tiene_distrito = codigo_zona_tiene_distrito;
+	}
+
+	public Distrito getDistrito() {
+		return distrito;
+	}
+
+	public void setDistrito(Distrito distrito) {
+		this.distrito = distrito;
+	}
+
+	public Zona getZona() {
+		return zona;
+	}
+
+	public void setZona(Zona zona) {
+		this.zona = zona;
+	}
+
+	public String getClaveApi() {
+		return claveApi;
+	}
+
+	public void setClaveApi(String claveApi) {
+		this.claveApi = claveApi;
+	}
 	
 }

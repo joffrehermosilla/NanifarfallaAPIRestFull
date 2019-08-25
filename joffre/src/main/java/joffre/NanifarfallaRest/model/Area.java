@@ -18,6 +18,38 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 @Table(name = "area")
 @EntityListeners(AuditingEntityListener.class)
 public class Area {
+	public int getCodigo_area() {
+		return codigo_area;
+	}
+
+	public void setCodigo_area(int codigo_area) {
+		this.codigo_area = codigo_area;
+	}
+
+	public String getNombre_area() {
+		return nombre_area;
+	}
+
+	public void setNombre_area(String nombre_area) {
+		this.nombre_area = nombre_area;
+	}
+
+	public String getClaveApi() {
+		return claveApi;
+	}
+
+	public void setClaveApi(String claveApi) {
+		this.claveApi = claveApi;
+	}
+
+	public Collection<Vendedor> getVendedor() {
+		return vendedor;
+	}
+
+	public void setVendedor(Collection<Vendedor> vendedor) {
+		this.vendedor = vendedor;
+	}
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	int codigo_area;

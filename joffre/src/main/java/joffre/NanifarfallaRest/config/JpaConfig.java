@@ -44,8 +44,7 @@ public class JpaConfig {
 	public DataSource dataSource() {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-		dataSource.setUrl(
-				"jdbc:mysql://localhost:3306/nanifarfalla?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false&zeroDateTimeBehavior=convertToNull");
+		dataSource.setUrl("jdbc:mysql://localhost:3306/nanifarfalla?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false&zeroDateTimeBehavior=convertToNull");
 		dataSource.setUsername("admin");
 		dataSource.setPassword("1234");
 		return dataSource;

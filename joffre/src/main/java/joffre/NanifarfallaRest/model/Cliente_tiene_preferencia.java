@@ -1,5 +1,7 @@
 package joffre.NanifarfallaRest.model;
 
+import java.util.Date;
+
 import javax.persistence.Entity;
 import javax.persistence.EntityListeners;
 import javax.persistence.GeneratedValue;
@@ -8,6 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+import javax.validation.constraints.NotBlank;
 
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
@@ -31,4 +34,63 @@ public class Cliente_tiene_preferencia {
 	@ManyToOne
 	@JsonBackReference
 	Cliente cliente;
+	
+	@NotBlank
+	private Date fecha_voto_preferencia	;
+	
+	
+	@NotBlank
+	private Double cantidad_puntos	;
+
+	@NotBlank
+	private String claveApi;
+
+	public int getCodigo_preferecia_sku() {
+		return codigo_preferecia_sku;
+	}
+
+	public void setCodigo_preferecia_sku(int codigo_preferecia_sku) {
+		this.codigo_preferecia_sku = codigo_preferecia_sku;
+	}
+
+	public Producto getProducto() {
+		return producto;
+	}
+
+	public void setProducto(Producto producto) {
+		this.producto = producto;
+	}
+
+	public Cliente getCliente() {
+		return cliente;
+	}
+
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
+	}
+
+	public Date getFecha_voto_preferencia() {
+		return fecha_voto_preferencia;
+	}
+
+	public void setFecha_voto_preferencia(Date fecha_voto_preferencia) {
+		this.fecha_voto_preferencia = fecha_voto_preferencia;
+	}
+
+	public Double getCantidad_puntos() {
+		return cantidad_puntos;
+	}
+
+	public void setCantidad_puntos(Double cantidad_puntos) {
+		this.cantidad_puntos = cantidad_puntos;
+	}
+
+	public String getClaveApi() {
+		return claveApi;
+	}
+
+	public void setClaveApi(String claveApi) {
+		this.claveApi = claveApi;
+	}
+	
 }

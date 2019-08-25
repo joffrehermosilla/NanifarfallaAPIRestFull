@@ -81,6 +81,13 @@ public class Distrito {
 	
 	
 	
+	public Collection<Zona_tieneDistrito> getZonatienedistrito() {
+		return zonatienedistrito;
+	}
+
+	public void setZonatienedistrito(Collection<Zona_tieneDistrito> zonatienedistrito) {
+		this.zonatienedistrito = zonatienedistrito;
+	}
 	@NotBlank
 	String nombre_distrito;
 	@NotBlank

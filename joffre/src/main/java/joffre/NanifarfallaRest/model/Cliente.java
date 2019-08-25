@@ -2,6 +2,7 @@ package joffre.NanifarfallaRest.model;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.EntityListeners;
@@ -12,6 +13,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+import javax.validation.constraints.NotBlank;
 
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
@@ -28,19 +30,147 @@ public class Cliente {
 	@JoinColumn(name = "fkcodigo_usuario", referencedColumnName = "codigo_usuario")
 	@ManyToOne
 	@JsonBackReference
-	Usuario usuario;
+	Usuario mUsuario;
 	
 	@JoinColumn(name = "fkcodigo_regimencliente", referencedColumnName = "codigo_regimencliente")
 	@ManyToOne
 	@JsonBackReference
-	RegimenCliente regimen_cliente;
+	RegimenCliente mRegimen_cliente;
 	
 	@JoinColumn(name = "fkcodigo_estadocliente", referencedColumnName = "codigo_estadocliente")
 	@ManyToOne
 	@JsonBackReference
-	EstadoCliente estado_cliente;
+	EstadoCliente mEstado_cliente;
 	
-	@OneToMany(mappedBy = "cliente")
-	private Collection<Estado_clientetienepedido> cliente_tiene_pedido = new ArrayList<>();
+	@OneToMany(mappedBy = "mCliente")
+	private Collection<Cliente_tiene_pedido> cliente_tiene_pedido = new ArrayList<>();
+	
+	@NotBlank
+	private Double latitud_cliente;
+
+	@NotBlank
+	private Double longitud_cliente;
+	
+	@NotBlank
+	private String type_cliente;
+
+	@NotBlank
+	private String foto_ruta;
+	
+	@NotBlank
+	private String ruc_cliente;
+
+	@NotBlank
+	private String dni_cliente;
+	
+	@NotBlank
+	private Date fecha_empadronamiento_cliente;
+
+	@NotBlank
+	private String claveApi;
+
+	public int getCodigo_cliente() {
+		return codigo_cliente;
+	}
+
+	public void setCodigo_cliente(int codigo_cliente) {
+		this.codigo_cliente = codigo_cliente;
+	}
+
+	public Usuario getUsuario() {
+		return mUsuario;
+	}
+
+	public void setUsuario(Usuario usuario) {
+		this.mUsuario = usuario;
+	}
+
+	public RegimenCliente getRegimen_cliente() {
+		return mRegimen_cliente;
+	}
+
+	public void setRegimen_cliente(RegimenCliente regimen_cliente) {
+		this.mRegimen_cliente = regimen_cliente;
+	}
+
+	public EstadoCliente getEstado_cliente() {
+		return mEstado_cliente;
+	}
+
+	public void setEstado_cliente(EstadoCliente estado_cliente) {
+		this.mEstado_cliente = estado_cliente;
+	}
+
+	public Collection<Cliente_tiene_pedido> getCliente_tiene_pedido() {
+		return cliente_tiene_pedido;
+	}
+
+	public void setCliente_tiene_pedido(Collection<Cliente_tiene_pedido> cliente_tiene_pedido) {
+		this.cliente_tiene_pedido = cliente_tiene_pedido;
+	}
+
+	public Double getLatitud_cliente() {
+		return latitud_cliente;
+	}
+
+	public void setLatitud_cliente(Double latitud_cliente) {
+		this.latitud_cliente = latitud_cliente;
+	}
+
+	public Double getLongitud_cliente() {
+		return longitud_cliente;
+	}
+
+	public void setLongitud_cliente(Double longitud_cliente) {
+		this.longitud_cliente = longitud_cliente;
+	}
+
+	public String getType_cliente() {
+		return type_cliente;
+	}
+
+	public void setType_cliente(String type_cliente) {
+		this.type_cliente = type_cliente;
+	}
+
+	public String getFoto_ruta() {
+		return foto_ruta;
+	}
+
+	public void setFoto_ruta(String foto_ruta) {
+		this.foto_ruta = foto_ruta;
+	}
+
+	public String getRuc_cliente() {
+		return ruc_cliente;
+	}
+
+	public void setRuc_cliente(String ruc_cliente) {
+		this.ruc_cliente = ruc_cliente;
+	}
+
+	public String getDni_cliente() {
+		return dni_cliente;
+	}
+
+	public void setDni_cliente(String dni_cliente) {
+		this.dni_cliente = dni_cliente;
+	}
+
+	public Date getFecha_empadronamiento_cliente() {
+		return fecha_empadronamiento_cliente;
+	}
+
+	public void setFecha_empadronamiento_cliente(Date fecha_empadronamiento_cliente) {
+		this.fecha_empadronamiento_cliente = fecha_empadronamiento_cliente;
+	}
+
+	public String getClaveApi() {
+		return claveApi;
+	}
+
+	public void setClaveApi(String claveApi) {
+		this.claveApi = claveApi;
+	}
 	
 }

@@ -58,13 +58,14 @@ public class Usuario {
 	@ManyToOne
 	EstadoUsuario estadousuario;
 	
-	@OneToMany(mappedBy = "usuario")
+
+	@OneToMany(mappedBy = "mUsuario")
 	private Collection<Cliente> cliente = new ArrayList<>();
 	
 	@OneToMany(mappedBy = "usuario")
 	private Collection<Vendedor> vendedor = new ArrayList<>();
 	
-	@OneToMany(mappedBy = "usuario")
+	@OneToMany(mappedBy = "mUsuario")
 	private Collection<Cliente_tiene_pedido> cliente_tiene_pedido = new ArrayList<>();
 	
 	@NotBlank
@@ -166,8 +167,29 @@ public class Usuario {
 	public void setClaveApi(String claveApi) {
 		this.claveApi = claveApi;
 	}
+
+	public Usuario(@NotBlank String nombre_logeo_usuario, @NotBlank String password_usuario) {
+		super();
+		this.nombre_logeo_usuario = nombre_logeo_usuario;
+		this.password_usuario = password_usuario;
+	}
+
+	public Usuario() {
 	
-	
+	}
+
+	@Override
+	public String toString() {
+		return "Usuario [codigo_usuario=" + codigo_usuario + ", nombre_usuario=" + nombre_usuario
+				+ ", apellido_usuario=" + apellido_usuario + ", fecha_nacimiento=" + fecha_nacimiento
+				+ ", direccion_usuario=" + direccion_usuario + ", nombre_logeo_usuario=" + nombre_logeo_usuario
+				+ ", password_usuario=" + password_usuario + ", ruta_foto_usuario=" + ruta_foto_usuario + ", distrito="
+				+ distrito + ", tipousuario=" + tipousuario + ", estadousuario=" + estadousuario + ", cliente="
+				+ cliente + ", vendedor=" + vendedor + ", cliente_tiene_pedido=" + cliente_tiene_pedido + ", claveApi="
+				+ claveApi + "]";
+	}
+
+
 	
 	
 	
