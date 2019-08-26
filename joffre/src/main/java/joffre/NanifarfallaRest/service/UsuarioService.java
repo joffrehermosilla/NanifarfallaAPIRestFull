@@ -20,4 +20,6 @@ public interface UsuarioService {
 	 public ObjectNode login(String username, String password);
 	 
 	 public abstract Usuario addContact(ContactModel contactModel);
+
+
 }
